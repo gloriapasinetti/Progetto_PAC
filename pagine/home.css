@@ -1,0 +1,842 @@
+div, p, ol, ul, li, nav, img, a, header, main, footer{
+	margin:0;
+	padding:0;
+	font-size:13pt;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration:none;
+	color:black;
+}
+/*intestazione*/
+header{
+	height:320px;
+}
+#logo{
+  top: 1%;
+  left: 19%;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  z-index:1;
+}
+
+header nav ul li {
+	list-style:none;
+	display:inline-block;
+	width:90px;
+	height:22px;
+	text-align:center;
+	padding-top:8px;
+	margin-top:0;
+	border-left: 1px solid #7f0e0e;
+	font-weight: bold;
+}
+header nav ul li a{
+	color:white;
+}
+header nav{
+	z-index:1;
+	position: absolute;
+	top: 1%;
+	right: 19%;
+	height: 100px;
+	float:right;
+	margin-top:1%;
+
+}
+header div{
+	float:left;
+}
+#lingua{
+	width:35px;
+	height:25px;
+}
+
+header nav ul li a:hover{
+	color: #7f0e0e;
+	transition: 0.5s;
+}
+
+#login{
+	width:80%;
+	height:60%;
+	/*border:solid black 1px;*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+}
+#login span{
+	width:30%;
+	display:inline-block;
+}
+#login #titolo{
+	font-size:14pt;
+	text-decoration:bold;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline;
+	width:80%;
+}
+#noaccount{
+	font-size:8pt;
+	text-align
+}
+/*corpo*/
+body{
+	z-index:-20;
+	background-color:#c0c0c0;
+	max-width:1200px;
+	min-width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	height:1200px;
+}
+main{
+	height:100%;
+	padding-top:30px;
+	background-color:white;
+}
+main div{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.rombi:hover{
+	background-image:url("immagini/rombi1.png");
+}
+#pie1{
+	padding:30px 300px;
+	background-color: #f2f5f2;
+	height: 19%
+}
+p{
+	margin-left:auto; 
+	margin-right:auto;
+	text-align:center;
+}
+#lavoratori{
+	width:200px;
+	height:100px;
+	float:left;
+	padding:10px;
+}
+#aziende{
+	width:200px;
+	height:100px;
+	float:right;
+	padding:10px;
+}
+#pie1 .contenitore{
+	float:left;
+}
+#pie1 #scritta{
+	float:right;
+	line-height:100px;
+}
+
+/*footer*/
+footer{
+	padding:30px; 
+	background-color: #760c0c;
+}
+main{
+	height:82%;
+}
+#mainindex{
+	height:53%;
+}
+#mainad{
+	height:95%;
+}
+#navad{
+	width:160px;
+	z-index:auto;
+	position: static;
+	top:auto;
+	right: auto;
+	float:none;
+	margin-top:1%;
+	background-color: none;
+	float:right;
+	margin-right:5%;
+}
+#navad ul li{
+	list-style:none;
+	display:inline-block;
+	width:30px;
+	height:22px;
+	text-align:center;
+	padding-top:4px;
+	border: none;
+}
+#navad ul li a{
+	color:black;
+}
+form span, form input{
+	margin-top:8px;
+}
+#contenitoreprofilo{
+	margin-left:15%;
+}
+#search{
+	width:20%;
+	height: 4%;
+	padding-left:1%;
+	margin-bottom:1%;
+	margin-left:70%;
+	border: none;
+	border-bottom: 2px solid #7f0e0e;
+	-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+}
+
+#infoutente3 span{
+	line-height:200%;
+}
+#infoutente4 span{
+	line-height:87%;
+}
+#infoutente5 span{
+	line-height:130%;
+}
+#infoutentechat span{
+	line-height:100%;
+}
+ #fotoutente3{ 
+    height:300px; 
+    width:300px; 
+    float:left; 
+    border: double #8B0000 4px; 
+}
+ #fotoutentechat{ 
+    height:40px; 
+    width:40px; 
+    float:left; 
+    border: double #8B0000 4px; 
+}
+#infoutentechat{
+	float:left;
+	height:15%;
+	width:50%;
+	text-align:left;
+	padding-left:5px;
+	font-size:11pt;
+	line-height:300%;
+	margin-left:5px;
+}
+#infoutente3{
+	float:left;
+	height:42%;
+	width:50%;
+	text-align:left;
+	padding-left:15px;
+}
+#infoutente5{
+	float:left;
+	height:60%;
+	width:50%;
+	text-align:left;
+	padding-left:15px;
+}
+#infoutente4 select{
+	width:200px;
+}
+#infoutente4 input{
+	width:200px;
+}
+#infoutente4{
+	float:left;
+	height:320px;
+	width:40%;
+	text-align:left;
+	padding-left:15px;
+}
+#contenitoremioprofilo, #contenitoreprofilo{
+	background-color:white;
+	height:100%;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-right:5%;
+}
+#formmioprofilo{
+	height:80%;
+}
+#mappa{
+	float:right;
+	margin-top:60px;
+}
+#rigautente, #rigautentefiltro{
+	height:12%;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:2px #a9a9a9 solid;
+	padding:20px;
+	
+}
+#fotoutente{
+	float:left;
+	border: double #8B0000 4px;
+	height:90px;
+	width:90px;
+}
+#infoutente{
+	float:left;
+	height:100%;
+	width:77%;
+	text-align:left;
+	padding-left:15px;
+}
+#fotoutente img{
+	height:100%;
+	width:100%;
+}
+#fotoutente2 img{
+	height:100%;
+	width:100%;
+}
+#fotoutente3 img{
+	height:100%;
+	width:100%;
+}
+#fotoutentechat img{
+	height:100%;
+	width:100%;
+}
+#cuore{
+	float:left;
+	height:31px;
+	width:31px;
+}
+#videocorso{
+	height:320px;
+	width: 480px;
+	border: double #8B0000 4px;
+}
+#infocorso{
+	width:80%;
+	height:300px;
+	text-align:justify;
+
+}
+#formmioprofilo span{
+	display:inline-block;
+	width:150px;
+	margin-top:15px;
+}
+#bottonesalvamodificaprofilo{ 
+    margin-top:5%; 
+    background-color:green; 
+    border-color: green; 
+    width:20%; 
+    height:10%; 
+    font-size: 13.5pt; 
+} 
+#modificacorretta{
+	color:red;
+	font-size:13.5pt;
+	margin-left:28%;
+}
+
+.contenitore{
+width: 100px;
+height: 100px;
+}
+.fronte, .retro {
+width: 100px;
+height: 100px;
+}
+.lavoratore, .azienda {
+transition: all 0.5s ease-in-out;
+transform-style: preserve-3d;
+-webkit-transform-style: preserve-3d;
+position: relative;
+}
+.fronte, .retro {
+backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
+position: absolute;
+}
+.contenitore:hover .lavoratore {
+transform: rotateY(180deg);
+}
+.contenitore:hover .azienda {
+transform: rotateY(180deg);
+}
+.contenitore .fronte {
+transform: rotateY(0deg);
+}
+.contenitore .retro {
+transform: rotateY(180deg);
+}
+
+.overlay {
+top: 0;
+
+right: 0;
+
+bottom: 0;
+
+left: 0;
+
+z-index: 10;
+
+display: none;
+
+/* livello di oscuramento  */
+
+background-color: rgba(0, 0, 0, 0.65);
+
+position: fixed; /* posizionamento fisso */
+
+cursor: default; /* tipo del cursore */
+
+}
+
+/* attivare livello di oscuramento */
+
+.overlay:target {
+
+display: block;
+
+}
+
+/* stili di finestre pop-up */
+
+.popup {
+
+/*top: -800%;
+
+right: 0;*/
+
+left: 50%;
+
+z-index: 20;
+
+width: 27%;
+height:30%;
+text-align:center;
+
+min-width: 320px;
+
+max-width: 600px;
+
+/* posizionamento fisso allo scorrimento della pagina  */
+
+position: fixed;
+
+padding: 15px;
+
+border: 1px solid #383838;
+
+background: #fefefe;
+
+/* arrotondamento dei angoli  */
+
+-webkit-border-radius: 4px;
+
+-moz-border-radius: 4px;
+
+-ms-border-radius: 4px;
+
+border-radius: 4px;
+
+font: 14px/18px 'Tahoma', Arial, sans-serif;
+
+/* ombra esetrna */
+
+box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+
+transform: translate(-50%, -500%);
+
+transition: transform 0.6s ease-out;
+
+}
+.popup #errore {
+	visibility:hidden;
+	color:red;
+}
+
+/* attivare finestra modale, viene utilizato pseudo-classe:target*/
+
+.overlay:target+.popup {
+
+transform: translate(-50%, 0);
+
+top: 20%;
+
+}
+
+/* formare il bottone di chiusura  */
+
+.close {
+
+top: -10px;
+
+right: -10px;
+
+width: 20px;
+
+height: 20px;
+
+position: absolute;
+
+padding: 0;
+
+border: 2px solid #ccc;
+
+border-radius: 15px;
+
+background-color: rgba(61, 61, 61, 0.8);
+
+box-shadow: 0px 0px 10px #000;
+
+text-align: center;
+
+text-decoration: none;
+
+font: 13px/20px 'Tahoma', Arial, sans-serif;
+
+font-weight: bold;
+
+transition: all ease .8s;
+
+}
+
+.close:before {
+
+color: rgba(255, 255, 255, 0.9);
+
+content: "X";
+
+text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+
+font-size: 12px;
+
+}
+
+.close:hover {
+
+background-color: rgba(252, 20, 0, 0.8);
+
+transform: rotate(360deg);   
+
+}
+
+
+.formregistrazionea span, .formregistrazioned span{
+	display:inline-block;
+	width:200px;
+}
+
+.formregistrazionea input, .formregistrazioned input, #infoutente3 input, .formregistrazioned textarea{
+	width:210px;
+}
+
+#cmbProvincia, #cmbCitta, #cmbSettore{
+	display:inline-block;
+	width:210px;
+}
+
+.formregistrazionea, .formregistrazioned{
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#combo{
+	padding-left: 3%;
+	padding-top:8%;
+}
+#contenitorecorso{
+	width:70%;
+	height:67%;
+	padding-left:5%;
+	padding-top:3%;
+}
+#infocorsi{
+	width:75%;
+	height:10%;
+	padding-left:5%;
+	padding-top:3%;
+}
+#bottoneiscriviti {
+	background-color:white;
+	border:balck 1px solid;
+	width:20%;
+	height:8%;
+	font-size: 13.5pt;
+	margin-left:500px;
+}
+#bottoneiscriviti:hover {
+background-color: #760c0c;
+color: white;
+}
+button{
+outline: none;
+cursor: pointer;
+width: 80%;
+text-align: center;
+text-decoration: none;
+color: black;
+padding: 30px 20px;
+border: solid 1px #0076a3;
+background: white;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+#domandetest {
+	border-left: auto;
+	border-right: auto;
+	padding-top:40px;
+}
+
+button:hover {
+background-color: #760c0c;
+color: white;
+}
+
+#risultati_test{
+	font-size:18pt;
+	border-left: auto;
+	border-right: auto;
+	padding-top:40px;
+}
+
+
+/* normativa  */
+#normativa{
+	text-align: center;
+	padding: 10px 40px 0px 40px;
+	font-size:11pt;
+}
+#normativa h1{
+	color:#760c0c;
+}
+
+#statuto{
+	width: 45%;
+	text-align:center;
+	margin-left:30px;
+	float:left;
+		font-size:11pt;
+		padding-top:30px;
+}
+#statuto h2{
+	color:#760c0c;
+}
+#sicurezza{
+	width: 45%;
+	text-align:center;
+	margin-right:30px;
+		font-size:11pt;
+		padding-top:30px;
+	
+}
+#sicurezza h2{
+	color:#760c0c;
+}
+#ciao{
+	padding:10px;
+	width: 40px;
+	height: 40px;
+	background-color: #760c0c;
+  transition-property:width, height, background-color;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+}
+#ciao:hover {
+	background-color: #d5d5d5;
+	width: 150px;
+	height: 200px;
+}
+#ciao:hover #vocimenu{
+	visibility:visible;
+	
+}
+#vocimenu:hover a{
+	color: #760c0c;
+	transition: 0.5s;
+	font-weight:bold;
+}
+#vocimenu:hover{
+	border-bottom: #760c0c 1px solid;
+}
+#menuaprire{
+	float:left;
+	width:200px;
+	margin-left:15px;
+}
+#vocimenu{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:auto;
+	padding-right:auto;
+	line-height:30px;
+	border-bottom: black 1px solid;
+	visibility:hidden;
+	transition: visibility 0s 0.0s;
+	text-align:center;
+}
+#mainmieicorsi{
+	height:60%;
+}
+
+#lez1{
+	float:left;
+	width:30%;
+	margin-left:18px;
+height:30%;
+
+
+
+}
+#lez1 img:hover {
+	  opacity: 0.5;
+	  z-index:-1;
+}
+
+#lez2 img:hover {
+	  opacity: 0.5;
+	  z-index:-1;
+}
+#lez3 img:hover {
+	  opacity: 0.5;
+	  z-index:-1;
+}
+#lez1 span{
+	float:rigt;
+	height: 100%;
+	width: 100%;
+	display:none;
+	color:#760c0c;
+		font-size:20pt;
+
+}
+#lez1:hover span{
+	display:block; 
+}
+#lez2{
+width:30%;
+height:30%;
+margin-right:15px;
+	float:right;
+}
+#lez3{
+width:30%;
+height:30%;
+
+}
+#lezioni{
+	width:100%;
+	margin-top:10%;
+}
+#lezioni a{
+	color:#760c0c;
+	font-size:20pt;
+}
+
+#manuale{
+	width: 80%;
+	text-align:justify;
+}
+#mainnormativa{
+	height:100%;
+}
+#bodynormativa{
+	height:1500px;
+}
+#normativa{
+	font-size:11pt;
+}
+#normativa h1{
+	color:#760c0c;
+}
+.titololeggegrande{
+	line-height:90px;
+	float:left;
+	width:30%;
+	height:110px;
+	border-bottom: 1px #e1e1e1 solid;
+	font-size:13pt;
+	color:#760c0c;
+	font-weight:bold;
+}
+.descrizioneleggegrande{
+	line-height:20px;
+	text-align:left;
+	float:left;
+	width:68%;
+	height:110px;
+	font-size:10.5pt;
+	border-bottom: 1px #e1e1e1 solid;
+}
+
+.titololegge{
+	line-height:90px;
+	font-size:13pt;
+	float:left;
+	width:30%;
+	height:90px;
+	border-bottom: 1px #e1e1e1 solid;
+	font-size:13pt;
+	color:#760c0c;
+	font-weight:bold;
+}
+.descrizionelegge{
+	line-height:20px;
+	font-size:11pt;
+	text-align:left;
+	float:left;
+	width:68%;
+	height:90px;
+	border-bottom: 1px #e1e1e1 solid;
+}
+
+/*FAQ*/
+#faq{
+	width:95%;
+}
+.domandad{
+	font-size:17pt;
+	font-weight:bold;
+	height:50px;
+	width:100%;
+	text-align:right;
+	margin-right:50px;
+	margin-top:50px;
+}
+.domandas{
+	font-size:17pt;
+	font-weight:bold;
+	height:50px;
+	width:100%;
+	text-align:left;
+	margin-left:50px;
+	margin-top:50px;
+}
+.risposta{
+	font-size:12pt;
+	height:40px;
+	width:90%;
+	text-align:left;
+padding-left:60px;
+}
+
+#indietro{
+	height: 10%;
+	text-align: center;
+	width:50%;
+}
+#testochat{
+	padding-left:5%;
+	padding-right:5%;
+	height:65%;
+	font-size: 10pt;
+	text-align: justify;
+}
